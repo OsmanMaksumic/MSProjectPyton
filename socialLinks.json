@@ -1,0 +1,12 @@
+{
+    "link": {
+        "twitter_link": "https://twitter.com/saucelabs",
+        "facebook_link": "https://www.facebook.com/saucelabs",
+        "linkedin_link": "https://www.linkedin.com/company/sauce-labs/"
+    },
+    "element": {
+        "twitter": ".social_twitter",
+        "facebook": ".social_facebook",
+        "linkedin": ".social_linkedin"
+    }
+}

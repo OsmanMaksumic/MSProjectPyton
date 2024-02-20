@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite name="myTestCase-20231101160612" tests="15" file=".py" time="5.608" timestamp="2023-11-01T16:06:19" failures="0" errors="0" skipped="0">
+		<testcase classname="myTestCase" name="test_add_1_item_and_checkout" time="1.427" timestamp="2023-11-01T16:06:15" file="test.py" line="77">
+			<!--Add 1 item and proceed to checkout-->
+		</testcase>
+		<testcase classname="myTestCase" name="test_add_all_items_to_cart_and_remove_them" time="0.564" timestamp="2023-11-01T16:06:15" file="test.py" line="70">
+			<!--Add all 6 items to cart and remove them from cart-->
+		</testcase>
+		<testcase classname="myTestCase" name="test_add_item_to_cart" time="0.275" timestamp="2023-11-01T16:06:16" file="test.py" line="64">
+			<!--Add 1 item to cart and verify it inside the cart-->
+		</testcase>
+		<testcase classname="myTestCase" name="test_click_menu" time="0.220" timestamp="2023-11-01T16:06:16" file="test.py" line="43">
+			<!--User should be able to open Menu and Close it-->
+		</testcase>
+		<testcase classname="myTestCase" name="test_compare_desc" time="0.222" timestamp="2023-11-01T16:06:16" file="test.py" line="123">
+			<!--Compare item description to JSON file-->
+		</testcase>
+		<testcase classname="myTestCase" name="test_login_logout" time="0.768" timestamp="2023-11-01T16:06:17" file="test.py" line="55">
+			<!--Verify that user is logged in and then logout-->
+		</testcase>
+		<testcase classname="myTestCase" name="test_read_from_file" time="0.187" timestamp="2023-11-01T16:06:17" file="test.py" line="115">
+			<!--Read content of itemNames.txt-->
+			<system-out><![CDATA[Sauce Labs Backpack
+Sauce Labs Bike Light
+Sauce Labs Bolt T-Shirt
+Sauce Labs Fleece Jacket
+Sauce Labs Onesie
+Test.allTheThings() T-Shirt (Red)
+
+]]></system-out>
+		</testcase>
+		<testcase classname="myTestCase" name="test_test_verify_sorting_hio" time="0.255" timestamp="2023-11-01T16:06:17" file="test.py" line="105">
+			<!--Verify that items are sorted properly Price(high-low)-->
+		</testcase>
+		<testcase classname="myTestCase" name="test_verify_footer_text" time="0.228" timestamp="2023-11-01T16:06:17" file="test.py" line="119">
+			<!--Compare item names to JSON file-->
+		</testcase>
+		<testcase classname="myTestCase" name="test_verify_products" time="0.210" timestamp="2023-11-01T16:06:18" file="test.py" line="60">
+			<!--Verify Products are displayed on the home page and verify its 6 of them-->
+		</testcase>
+		<testcase classname="myTestCase" name="test_verify_sorting_AZ" time="0.225" timestamp="2023-11-01T16:06:18" file="test.py" line="87">
+			<!--Verify that items are sorted properly (A-Z)-->
+		</testcase>
+		<testcase classname="myTestCase" name="test_verify_sorting_ZA" time="0.243" timestamp="2023-11-01T16:06:18" file="test.py" line="93">
+			<!--Verify that items are sorted properly (Z-A)-->
+		</testcase>
+		<testcase classname="myTestCase" name="test_verify_sorting_lio" time="0.243" timestamp="2023-11-01T16:06:18" file="test.py" line="99">
+			<!--Verify that items are sorted properly Price(low-high)-->
+		</testcase>
+		<testcase classname="myTestCase" name="test_write_into_file" time="0.226" timestamp="2023-11-01T16:06:19" file="test.py" line="111">
+			<!--Write each item name into .txt file-->
+		</testcase>
+		<testcase classname="myTestCase" name="test_write_prices" time="0.313" timestamp="2023-11-01T16:06:19" file="test.py" line="51">
+			<!--Write item names and prices in .txt file-->
+		</testcase>
+	</testsuite>
+</testsuites>
